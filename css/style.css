@@ -1,0 +1,149 @@
+/* start style all tags */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* end style all tags */
+/* start style body */
+body {
+    height: 900px;
+    margin: auto;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    background-image: url(../images/adrien-olichon-_GH9LwhlSO4-unsplash.jpg);
+    background-size: cover;
+}
+/* end style body */
+
+/* start style big box */
+.big-box {
+    width: 600px;
+    height: 600px;
+    padding: 24px;
+    border: 2px solid rgba(143, 205, 221, 0.932);
+    margin: auto;
+    border-radius: 35px;
+    background-image: url(../images/Screenshot\ 2023-02-28\ 194146.png);
+    background-size: cover;
+}
+/* end style big box */
+/* start style small box */
+.small-box {
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    background: rgba(140, 205, 231, 0.432);
+    border-radius: 35px;
+    border: 2px solid rgba(143, 205, 221, 0.842);
+}
+/* end style small box */
+/* start style div title in small box */
+.hello {
+    width: 90%;
+    margin: auto;
+    padding: 13px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+/* end style div title in small box */
+/* start style p1 in div in small box */
+.p1 {
+    display: inline-block;
+}
+/* end style p1 in div in small box */
+/* start style p2 in div small box */
+.p2 {
+    display: inline-block;
+    width: 144px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+/* end style p2 in div small box */
+/* start style span in title in small box */
+.hello span {
+    color: rgb(89, 238, 238);
+}
+/* end style span in title in small box */
+/* start style  div days in small box */
+.days {
+    background-color: rgba(12, 12, 12, 0.274);
+    width: 260px;
+    padding: 1px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #80deea;
+}
+/* end style  div days in small box */
+/* start style  div list days in small box */
+.days li {
+    display: inline-block;
+    padding: 10px;
+    color: #80deea;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* end style  div list days in small box */
+/* start style  div list tasks in small box */
+.tasks li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 23px;
+    border: 2px solid #def6f9;
+    cursor: pointer;
+    color: white;
+    padding: 2px;
+}
+/* end style  div list tasks in small box */
+/* start all numbers in list tasks in small box */
+.numbers {
+    font-size: 25px;
+    display: inline-block;
+    padding: 5px;
+}
+/* end all numbers in list tasks in small box */
+/* start all div h in list tasks in small box */
+.h {
+    width: 25%;
+    background-color: #006efd;
+    font-size: 30px;
+    padding: 13px;
+    text-align: center;
+    clip-path: polygon(37% 0, 100% 0%, 100% 100%, 0% 100%);
+    display: inline-block;
+    border-radius: 20px;
+}
+/* end all div h in list tasks in small box */
+
+/* start all p in list tasks in small box */
+.tasks p {
+    font-size: 25px;
+    padding: 12px;
+    display: inline-block;
+    width: 345px;
+}
+/* end all p in list tasks in small box */
+/* start all span in list tasks in small box */
+.tasks span {
+    font-size: 14px;
+    display: inline-block;
+}
+/* end all span in list tasks in small box */
+/* start style tasks */
+.task1 {
+    background-color: #00343ad7;
+}
+.task2 {
+    background-color: #006674c5;
+}
+.task3 {
+    background-color: #009aaecc;
+}
+.task4 {
+    background-color: #00bbd4ce;
+}
+.task5 {
+    background-color: #2ec7dbc0;
+}
+/*end style tasks */
